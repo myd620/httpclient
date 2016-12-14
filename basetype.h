@@ -6,14 +6,14 @@
 #include <stdlib.h>
 
 
-typedef unsigned char	   _UC;
-typedef unsigned short	   _US;
-typedef unsigned int	   _UI;
-typedef int 			   _INT;
+typedef unsigned char      _UC;
+typedef unsigned short     _US;
+typedef unsigned int       _UI;
+typedef int                _INT;
 typedef unsigned long long _LLID;
 typedef unsigned long long _XXLSIZE;
-typedef void			   _VOID;
-typedef void			  *_VPTR;
+typedef void               _VOID;
+typedef void               *_VPTR;
 
 
 
