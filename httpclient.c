@@ -269,6 +269,8 @@ ST_SOCKBUF* Http_Pop_SockBuf()
 
 _VOID Http_Push_SockBuf(ST_SOCKBUF* pstSockBuf)
 {
+    if(pstSockBuf == NULL)
+        return;
     MUTEX_LOCK(s_stHttpBase->hMutexBuf);
     pstSockBuf->next = s_stHttpBase->pstHttpBufList;
     s_stHttpBase->pstHttpBufList = pstSockBuf;
